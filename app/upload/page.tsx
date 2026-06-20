@@ -1,0 +1,6 @@
+import { competitions, dogs } from "@/lib/data";
+import { Card, Section } from "@/components/ui";
+
+export default function UploadPage() {
+  return <Section eyebrow="Mock entry flow" title="Upload your dog photo"><div className="grid gap-5 md:grid-cols-[0.9fr_1.1fr]"><Card><div className="grid h-64 place-items-center rounded-[1.75rem] border-2 border-dashed border-terracotta/30 bg-biscuit/30 text-center"><div><p className="text-5xl">📸</p><p className="mt-3 font-black">Tap to choose a photo</p><p className="text-sm text-cocoa/60">Mock upload only — no file is stored.</p></div></div></Card><Card><form className="grid gap-4"><label className="font-bold">Dog name<input defaultValue={dogs[0].name} className="mt-2 w-full rounded-2xl border border-cocoa/10 bg-cream px-4 py-3" /></label><label className="font-bold">Competition<select className="mt-2 w-full rounded-2xl border border-cocoa/10 bg-cream px-4 py-3">{competitions.map(c => <option key={c.slug}>{c.title}</option>)}</select></label><label className="font-bold">Class<select className="mt-2 w-full rounded-2xl border border-cocoa/10 bg-cream px-4 py-3"><option>Puppy</option><option>Best Rescue</option><option>Action Shot</option></select></label><button type="button" className="rounded-full bg-terracotta px-5 py-3 font-black text-white">Preview entry</button></form></Card></div></Section>;
+}
