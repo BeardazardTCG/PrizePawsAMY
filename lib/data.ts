@@ -79,7 +79,7 @@ export const competitions: Competition[] = [
     color: "from-emerald-100 to-teal-200",
     classType: "Always-on special",
     classes: ["Funniest Face", "Best Nap", "Most Supportive Comment", "Owner's Proud Pick"],
-    description: "A lighter class for everyday dog moments, friendly reactions, and building the PupPodium habit."
+    description: "A lighter class for everyday dog moments, friendly reactions, and building the Bark Booth habit."
   }
 ];
 
@@ -112,4 +112,33 @@ export const faqs = [
   ["Is payment built yet?", "Not yet. This concept uses mock data only and is ready for future checkout and backend integrations."],
   ["How are winners picked?", "The concept supports fair human judging, community recognition, class winners, and rosette-style placements."],
   ["What are badges?", "Badges mark proud milestones such as first entry, first rosette, streaks, rescue stories, and community favourites."]
+];
+
+
+export const coreValues = [
+  { title: "Progress over perfection", detail: "Every small win belongs in the scrapbook, not just polished podium moments." },
+  { title: "Positive reinforcement", detail: "Celebrate kind training, confidence, play, and trust between dogs and owners." },
+  { title: "Dog welfare first", detail: "Comfort, consent, and safety come before poses, prizes, or pressure." },
+  { title: "Fair judging", detail: "Clear classes, human review, and everyday phone photos all get a fair chance." },
+  { title: "Community", detail: "A warm UK space for cheering on real dogs, rescue stories, and proud owners." },
+  { title: "Accessibility", detail: "Simple routes, friendly copy, and low-pressure mock entry flows for every owner." }
+];
+
+export const featuredProfiles = [
+  { name: "Mabel", note: "Collected her first rosette after three months of sunny garden entries.", badge: "3 Month Streak" },
+  { name: "Otis", note: "A couch-royalty finalist loved by the community vote.", badge: "Community Favourite" },
+  { name: "Nala", note: "Rescue confidence milestone: first beach photo without worry.", badge: "Rescue Hero" }
+];
+
+export const calendarPups = [
+  "January Jumpers",
+  "Spring Sniffs",
+  "Summer Smiles",
+  "Autumn Adventures"
+];
+
+export const tricksAndTails = [
+  "Teach a calm paw touch",
+  "Celebrate a recall win",
+  "Share the story behind a favourite photo"
 ];
