@@ -5,15 +5,19 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        cream: "#FFF7EC",
-        biscuit: "#F6D7A8",
-        terracotta: "#D96C4A",
-        cocoa: "#3E2B23",
+        navy: "#222D66",
+        pink: "#FF6B8A",
+        cream: "#FFFDF8",
+        lightgrey: "#F3F4F6",
+        charcoal: "#333333",
+        biscuit: "#FFE7C2",
+        terracotta: "#FF6B8A",
+        cocoa: "#222D66",
         sage: "#8FAE8A",
         skysoft: "#DDEFFE"
       },
       boxShadow: {
-        soft: "0 18px 50px rgba(62, 43, 35, 0.12)"
+        soft: "0 18px 50px rgba(34, 45, 102, 0.12)"
       }
     }
   },
